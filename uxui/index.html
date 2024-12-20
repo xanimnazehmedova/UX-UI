@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      header {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+      }
+      #gallerybuton {
+        background-color: rgb(58, 56, 128);
+        color: white;
+        padding: 10px;
+        border-radius: 20px;
+      }
+      #navbar {
+        list-style: none;
+        color: white;
+        padding: 10px;
+        display: flex;
+        gap: 25px;
+      }
+      li,
+      a {
+        text-decoration: none;
+        color: white;
+      }
+      #logolist {
+        display: flex;
+        align-items: center;
+      }
+      .logbuttons {
+        padding: 10px 25px;
+        background-color: rgb(14, 142, 27);
+        color: white;
+        border-color: rgb(14, 142, 27);
+        border-radius: 20px;
+        margin-left: 20px;
+      }
+      #divofbuttons {
+        border-left: 2px solid;
+        height: 45px;
+      }
+      #ui-ux {
+        color: white;
+        padding: 50px 0px 0px 100px;
+      }
+      #design {
+        font-size: 70px;
+      }
+      #prtext {
+        width: 270px;
+        font-size: 20px;
+      }
+      main {
+        display: flex;
+        justify-content: space-between;
+      }
+      #poster {
+        width: 600px;
+        padding: 0px 200px 50px 0px;
+      }
+      #social {
+        color: rgb(204, 187, 187);
+        padding: 50px 0px 0px 100px;
+      }
+      #socialdiv {
+        padding: 0px 50px 0px 50px;
+        margin-left: 50px;
+      }
+      .image {
+        padding: 5px;
+        height: 40px;
+      }
+    </style>
+  </head>
+  <body
+    style="
+      background-image: url(./circulos.png);
+      background-color: rgb(25, 25, 89);
+      padding: 10px;
+    "
+  >
+    <header>
+      <div id="logolist">
+        <img src="./logo.png" alt="logo" />
+        <nav>
+          <ul id="navbar">
+            <li>
+              <a href=""> ABOUT</a>
+            </li>
+            <li>
+              <a href="" style="padding: 10px; background-color: rgb(53, 48, 150); border-radius: 10px;">GALLERY</a>
+            </li>
+            <li><a href=""> CONTACTS</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div id="divofbuttons">
+        <button class="logbuttons" type="submit"><b>Log In</b></button>
+        <button class="logbuttons" type="submit"><b>Register</b></button>
+      </div>
+    </header>
+    <main>
+      <div id="ui-ux">
+        <p>UX/UI</p>
+        <p id="design">DESIGN</p>
+        <p id="prtext">Started with designing on Figma & Adobe XD</p>
+        <br><br>
+        <p>See More...</p>
+      </div>
+      <div>
+        <img id="poster" src="./poster.png" alt="" />
+      </div>
+    </main>
+    <footer>
+      <p id="social">Social Media</p>
+      <div id="socialdiv">
+        <img class="image" src="./facebook.png" alt="facebook" />
+        <img class="image" src="./github.png" alt="githun" />
+        <img class="image" src="./instagram.png" alt="instagram" />
+        <img class="image" src="./linkedin.png" alt="linkedin" />
+        <img class="image" src="./twitter.png" alt="twitter" />
+      </div>
+    </footer>
+  </body>
+</html>
